@@ -219,9 +219,17 @@ else if (codi=="volumdown") {
 }
 else if (codi=="Ltunning") {
     irsend.sendNEC(0x1EE1956A);
+        for (int i = 0; i <= 5; i++) {
+          irsend.sendNEC(0xFFFFFFFFFFFFFFFF);
+        delay(10);
+    }
 }
 else if (codi=="Rtunning") {
     irsend.sendNEC(0x1EE155AA);
+        for (int i = 0; i <= 5; i++) {
+          irsend.sendNEC(0xFFFFFFFFFFFFFFFF);
+        delay(10);
+    }
 }
 else if (codi=="Lpreset") {
     irsend.sendNEC(0x1EE138C7);
@@ -231,6 +239,13 @@ else if (codi=="Rpreset") {
 }
 else if (codi=="memory") {
     irsend.sendNEC(0x1EE14DB2);
+}
+else if (codi=="AUTOPRESET") {
+    irsend.sendNEC(0x1EE14DB2);
+        for (int i = 0; i <= 30; i++) {
+          irsend.sendNEC(0xFFFFFFFFFFFFFFFF);
+        delay(10);
+    }
 }
 else if (codi=="volta") {
     irsend.sendNEC(0x1EE130CF);
@@ -335,7 +350,7 @@ ptr +="<a class=\"button button-on\" href=\"/?tecla=memory\">memory</a>\n";
 ptr +="<a class=\"button button-on\" href=\"/?tecla=volta\">Loop</a>\n";
 ptr +="<a class=\"button button-on\" href=\"/?tecla=aleatori\">Random</a>\n";
 ptr +="<a class=\"button button-on\" href=\"/?tecla=Snooze\">Snooze</a>\n";
-
+ptr +="<a class=\"button button-on\" href=\"/?tecla=AUTOPRESET\">Auto Preset</a>\n";
 
   ptr +="</body>\n";
   ptr +="</html>\n";
