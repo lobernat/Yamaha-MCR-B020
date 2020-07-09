@@ -299,7 +299,8 @@ String SendHTML(){
   ptr +=".button-gris {background-color: #AAAAAA;}\n";
   ptr +=".button-volum {background-color: #7FDBFF;}\n";
   ptr +=".button-cursor {background-color: #0074D9;}\n";
-  ptr +=".button-aaaaa {background-color: #ffffff;}\n";
+  ptr +=".button-tunning {background-color: #85144b;}\n";
+  ptr +=".button-emparellar {background-color: #0074D9;}\n";
   ptr +=".button-taronja {background-color: #FF851B;}\n";
   ptr +=".button-on:active {background-color: #16a085;}\n";
   ptr +=".button-off {background-color: #34495e;}\n";
@@ -325,12 +326,12 @@ ptr +="<a class=\"button button-on\" href=\"/?tecla=Rpreset\">Preset +</a>\n";
 ptr +="<a class=\"button button-on\" href=\"/?tecla=Lpreset\">Preset -</a>\n";
 ptr +="<a class=\"button button-vermell\" href=\"/?tecla=Power\">Power</a>\n";
 
-ptr +="<a class=\"button button-on\" href=\"/?tecla=Ltunning\">&lt;&lt; tunning</a>\n";
-ptr +="<a class=\"button button-on\" href=\"/?tecla=Rtunning\">tunning &gt;&gt;</a>\n";
+ptr +="<a class=\"button button-tunning\" href=\"/?tecla=Ltunning\">&lt;&lt; tunning</a>\n";
+ptr +="<a class=\"button button-tunning\" href=\"/?tecla=Rtunning\">tunning &gt;&gt;</a>\n";
 ptr +="<a class=\"button button-taronja\" href=\"/?tecla=Alarm\">Alarm</a>\n";
 ptr +="<a class=\"button button-gris\" href=\"/?tecla=CD\">CD</a>\n";
 ptr +="<a class=\"button button-gris\" href=\"/?tecla=Bluetooth\">Bluetooth</a>\n";
-ptr +="<a class=\"button button-gris\" href=\"/?tecla=pair\">Emparellar</a>\n";
+ptr +="<a class=\"button button-emparellar\" href=\"/?tecla=pair\">Emparellar</a>\n";
 
 ptr +="<a class=\"button button-gris\" href=\"/?tecla=USB\">USB</a>\n";
 ptr +="<a class=\"button button-gris\" href=\"/?tecla=Radio\">Radio</a>\n";
