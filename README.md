@@ -4,4 +4,4 @@
 ![Main screeen](https://raw.githubusercontent.com/lobernat/Yamaha-MCR-B020/master/imatges/comandament_captura_pantalla.jpg)
 
 Original remote
-(https://raw.githubusercontent.com/lobernat/Yamaha-MCR-B020/master/imatges/mini_remot.jpg)
+![Main screeen](https://raw.githubusercontent.com/lobernat/Yamaha-MCR-B020/master/imatges/mini_remot.jpg)
